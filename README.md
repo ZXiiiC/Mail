@@ -1,7 +1,7 @@
-本系统为一个与邮箱标准服务器相连的第三方邮件客户端，实现了编辑，发送，查看，删除，下载邮件的功能。客户端还可以选择与邮箱标准服务器的发送协议，接收协议，发件服务器，收件服务器。因为邮箱授权码复杂，客户端与SQLserver数据库连接，记录登陆过的邮箱账号密码，之后登陆时可以使用记忆密码功能自动填写密码。考虑到用户可能有同时编写、查看邮件的需要，邮件编辑和查看界面采用弹出窗口的方式，即支持同时编写、查看多封邮件。
-开发环境:
+This system is a third-party mail client connected with the standard mailbox server, which realizes the functions of editing, sending, viewing, deleting and downloading mails. The client can also choose the sending protocol, receiving protocol, sending server, and receiving server with the mailbox standard server. Because the email authorization code is complex, the client is connected to the SQLserver database, and the email account password that has been logged in is recorded. After logging in, you can use the remember password function to automatically fill in the password. Considering that users may need to write and view emails at the same time, the email editing and viewing interface adopts the method of pop-up window, that is, it supports writing and viewing multiple emails at the same time.
+Development environment:
 JDK1.8
-依赖:
+depend:
 	javax.mail.jar
 	jsoup-1.14.jar
 	mssql-jdbc-7.00.jre8.jar
